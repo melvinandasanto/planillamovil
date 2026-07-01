@@ -1,0 +1,8 @@
+com.example.menu-pngs-0 C:\Users\cmarc\AndroidStudioProjects\movil1\menu\build\generated\res\pngs\debug
+com.example.menu-updated_navigation_xml-1 C:\Users\cmarc\AndroidStudioProjects\movil1\menu\build\generated\updated_navigation_xml\debug
+com.example.menu-packageDebugResources-2 C:\Users\cmarc\AndroidStudioProjects\movil1\menu\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.menu-packageDebugResources-3 C:\Users\cmarc\AndroidStudioProjects\movil1\menu\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.menu-debug-4 C:\Users\cmarc\AndroidStudioProjects\movil1\menu\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.menu-debug-5 C:\Users\cmarc\AndroidStudioProjects\movil1\menu\src\debug\res
+com.example.menu-main-6 C:\Users\cmarc\AndroidStudioProjects\movil1\menu\src\main\res
+gradleHome-0 C:\Users\cmarc\.gradle

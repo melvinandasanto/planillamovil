@@ -1,0 +1,212 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.INSAVA"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->INJECTED
+8        android:minSdkVersion="29"
+8-->INJECTED
+9        android:targetSdkVersion="37" />
+9-->INJECTED
+10
+11    <permission
+11-->[androidx.core:core:1.19.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\5323b2157986469a783d7b93baa15a3b\transformed\core-1.19.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.INSAVA.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.19.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\5323b2157986469a783d7b93baa15a3b\transformed\core-1.19.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.19.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\5323b2157986469a783d7b93baa15a3b\transformed\core-1.19.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.INSAVA.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.19.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\5323b2157986469a783d7b93baa15a3b\transformed\core-1.19.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.19.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\5323b2157986469a783d7b93baa15a3b\transformed\core-1.19.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:4:5-47:19
+18        android:allowBackup="true"
+18-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:5:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.19.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\5323b2157986469a783d7b93baa15a3b\transformed\core-1.19.0\AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+21-->INJECTED
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:6:9-43
+23        android:label="insava"
+23-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:7:9-31
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:8:9-54
+25        android:supportsRtl="true"
+25-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:9:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.Movilaliados4" >
+27-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:10:9-51
+28        <activity
+28-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:11:9-15:58
+29            android:name="com.example.login1.cosecha"
+29-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:12:13-54
+30            android:exported="false"
+30-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:13:13-37
+31            android:label="Cosecha"
+31-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:14:13-36
+32            android:theme="@style/Theme.Movilaliados4" />
+32-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:15:13-55
+33        <activity
+33-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:16:9-20:58
+34            android:name="com.example.login1.RegistroActivity"
+34-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:17:13-63
+35            android:exported="false"
+35-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:18:13-37
+36            android:label="@string/title_activity_registro"
+36-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:19:13-60
+37            android:theme="@style/Theme.Movilaliados4" />
+37-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:20:13-55
+38        <activity
+38-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:21:9-25:58
+39            android:name="com.example.login1.UsuarioActivity"
+39-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:22:13-62
+40            android:exported="false"
+40-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:23:13-37
+41            android:label="@string/title_activity_usuario"
+41-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:24:13-59
+42            android:theme="@style/Theme.Movilaliados4" />
+42-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:25:13-55
+43        <activity
+43-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:26:9-30:58
+44            android:name="com.example.login1.MenuActivity"
+44-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:27:13-59
+45            android:exported="false"
+45-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:28:13-37
+46            android:label="@string/title_activity_menu"
+46-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:29:13-56
+47            android:theme="@style/Theme.Movilaliados4" />
+47-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:30:13-55
+48        <activity
+48-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:31:9-41:20
+49            android:name="com.example.login1.Login1Activity"
+49-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:32:13-43
+50            android:exported="true"
+50-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:33:13-36
+51            android:label="insava"
+51-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:34:13-35
+52            android:theme="@style/Theme.Movilaliados4" >
+52-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:35:13-55
+53            <intent-filter>
+53-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:36:13-40:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:37:17-69
+54-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:37:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:39:17-77
+56-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:39:27-74
+57            </intent-filter>
+58        </activity>
+59        <activity
+59-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:42:9-46:58
+60            android:name="com.example.insava.INSAVA"
+60-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:43:13-53
+61            android:exported="false"
+61-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:44:13-37
+62            android:label="insava"
+62-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:45:13-35
+63            android:theme="@style/Theme.Movilaliados4" />
+63-->C:\Users\cmarc\AndroidStudioProjects\movil1\insava\src\main\AndroidManifest.xml:46:13-55
+64        <activity
+64-->[androidx.compose.ui:ui-tooling-android:1.10.4] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\1da14518dcaaba2705c27cfef62adbdc\transformed\ui-tooling\AndroidManifest.xml:23:9-25:39
+65            android:name="androidx.compose.ui.tooling.PreviewActivity"
+65-->[androidx.compose.ui:ui-tooling-android:1.10.4] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\1da14518dcaaba2705c27cfef62adbdc\transformed\ui-tooling\AndroidManifest.xml:24:13-71
+66            android:exported="true" />
+66-->[androidx.compose.ui:ui-tooling-android:1.10.4] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\1da14518dcaaba2705c27cfef62adbdc\transformed\ui-tooling\AndroidManifest.xml:25:13-36
+67
+68        <provider
+68-->[androidx.emoji2:emoji2:1.4.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\fef4ca978ae34d2847102fc8fcf39cc7\transformed\emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
+69            android:name="androidx.startup.InitializationProvider"
+69-->[androidx.emoji2:emoji2:1.4.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\fef4ca978ae34d2847102fc8fcf39cc7\transformed\emoji2-1.4.0\AndroidManifest.xml:25:13-67
+70            android:authorities="com.example.INSAVA.androidx-startup"
+70-->[androidx.emoji2:emoji2:1.4.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\fef4ca978ae34d2847102fc8fcf39cc7\transformed\emoji2-1.4.0\AndroidManifest.xml:26:13-68
+71            android:exported="false" >
+71-->[androidx.emoji2:emoji2:1.4.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\fef4ca978ae34d2847102fc8fcf39cc7\transformed\emoji2-1.4.0\AndroidManifest.xml:27:13-37
+72            <meta-data
+72-->[androidx.emoji2:emoji2:1.4.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\fef4ca978ae34d2847102fc8fcf39cc7\transformed\emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
+73                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+73-->[androidx.emoji2:emoji2:1.4.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\fef4ca978ae34d2847102fc8fcf39cc7\transformed\emoji2-1.4.0\AndroidManifest.xml:30:17-75
+74                android:value="androidx.startup" />
+74-->[androidx.emoji2:emoji2:1.4.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\fef4ca978ae34d2847102fc8fcf39cc7\transformed\emoji2-1.4.0\AndroidManifest.xml:31:17-49
+75            <meta-data
+75-->[androidx.lifecycle:lifecycle-process:2.11.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\694f9b385e58acf3a8212cbea6dbc638\transformed\lifecycle-process-2.11.0\AndroidManifest.xml:29:13-31:52
+76                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+76-->[androidx.lifecycle:lifecycle-process:2.11.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\694f9b385e58acf3a8212cbea6dbc638\transformed\lifecycle-process-2.11.0\AndroidManifest.xml:30:17-78
+77                android:value="androidx.startup" />
+77-->[androidx.lifecycle:lifecycle-process:2.11.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\694f9b385e58acf3a8212cbea6dbc638\transformed\lifecycle-process-2.11.0\AndroidManifest.xml:31:17-49
+78            <meta-data
+78-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\223b36f10c7229de9090813f91a01d8d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+79                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+79-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\223b36f10c7229de9090813f91a01d8d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+80                android:value="androidx.startup" />
+80-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\223b36f10c7229de9090813f91a01d8d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+81        </provider>
+82
+83        <uses-library
+83-->[androidx.window:window:1.5.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\d86d6c8f322ef3f6a62aa7905d6c27bd\transformed\window-1.5.0\AndroidManifest.xml:23:9-25:40
+84            android:name="androidx.window.extensions"
+84-->[androidx.window:window:1.5.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\d86d6c8f322ef3f6a62aa7905d6c27bd\transformed\window-1.5.0\AndroidManifest.xml:24:13-54
+85            android:required="false" />
+85-->[androidx.window:window:1.5.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\d86d6c8f322ef3f6a62aa7905d6c27bd\transformed\window-1.5.0\AndroidManifest.xml:25:13-37
+86        <uses-library
+86-->[androidx.window:window:1.5.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\d86d6c8f322ef3f6a62aa7905d6c27bd\transformed\window-1.5.0\AndroidManifest.xml:26:9-28:40
+87            android:name="androidx.window.sidecar"
+87-->[androidx.window:window:1.5.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\d86d6c8f322ef3f6a62aa7905d6c27bd\transformed\window-1.5.0\AndroidManifest.xml:27:13-51
+88            android:required="false" />
+88-->[androidx.window:window:1.5.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\d86d6c8f322ef3f6a62aa7905d6c27bd\transformed\window-1.5.0\AndroidManifest.xml:28:13-37
+89
+90        <activity
+90-->[androidx.compose.ui:ui-test-manifest:1.10.4] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\16f29d477974247ff5c6ee28ccb20846\transformed\ui-test-manifest-1.10.4\AndroidManifest.xml:23:9-26:79
+91            android:name="androidx.activity.ComponentActivity"
+91-->[androidx.compose.ui:ui-test-manifest:1.10.4] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\16f29d477974247ff5c6ee28ccb20846\transformed\ui-test-manifest-1.10.4\AndroidManifest.xml:24:13-63
+92            android:exported="true"
+92-->[androidx.compose.ui:ui-test-manifest:1.10.4] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\16f29d477974247ff5c6ee28ccb20846\transformed\ui-test-manifest-1.10.4\AndroidManifest.xml:25:13-36
+93            android:theme="@android:style/Theme.Material.Light.NoActionBar" />
+93-->[androidx.compose.ui:ui-test-manifest:1.10.4] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\16f29d477974247ff5c6ee28ccb20846\transformed\ui-test-manifest-1.10.4\AndroidManifest.xml:26:13-76
+94
+95        <receiver
+95-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\223b36f10c7229de9090813f91a01d8d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+96            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+96-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\223b36f10c7229de9090813f91a01d8d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+97            android:directBootAware="false"
+97-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\223b36f10c7229de9090813f91a01d8d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+98            android:enabled="true"
+98-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\223b36f10c7229de9090813f91a01d8d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+99            android:exported="true"
+99-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\223b36f10c7229de9090813f91a01d8d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+100            android:permission="android.permission.DUMP" >
+100-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\223b36f10c7229de9090813f91a01d8d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+101            <intent-filter>
+101-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\223b36f10c7229de9090813f91a01d8d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+102                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+102-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\223b36f10c7229de9090813f91a01d8d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+102-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\223b36f10c7229de9090813f91a01d8d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+103            </intent-filter>
+104            <intent-filter>
+104-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\223b36f10c7229de9090813f91a01d8d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+105                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+105-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\223b36f10c7229de9090813f91a01d8d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+105-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\223b36f10c7229de9090813f91a01d8d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+106            </intent-filter>
+107            <intent-filter>
+107-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\223b36f10c7229de9090813f91a01d8d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+108                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+108-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\223b36f10c7229de9090813f91a01d8d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+108-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\223b36f10c7229de9090813f91a01d8d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+109            </intent-filter>
+110            <intent-filter>
+110-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\223b36f10c7229de9090813f91a01d8d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+111                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+111-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\223b36f10c7229de9090813f91a01d8d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+111-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\cmarc\.gradle\caches\9.4.1\transforms\223b36f10c7229de9090813f91a01d8d\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+112            </intent-filter>
+113        </receiver>
+114    </application>
+115
+116</manifest>
